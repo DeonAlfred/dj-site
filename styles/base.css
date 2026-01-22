@@ -1,0 +1,281 @@
+/* my google fonts8*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Serif:ital=Roboto,sans-serif;opsz@0,8..144;1,8..144&display=swap');
+
+:root {
+    /* colors from my palette */
+    --primary-color: #091136;
+    --secondary-color: #fb0f07;
+    --accent1-color: #70e000;
+    --accent2-color: #fdfcdc;
+    --accent3-color: #ae07fb;
+
+    /*  chosen font(s) */
+    
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+body {
+
+    max-width: 1500px;
+    border-radius: 30px;
+    display: grid;
+    
+    text-shadow: #fb0f07;
+    padding: 30px;
+    height: 100%;
+    background-image: url("/images/MPIC.jpg");
+    background-size: cover;
+    
+    
+    border: solid;
+    border-color: #fdfcdc;
+    
+    
+
+
+
+
+    background-color:#858111;
+
+
+}
+
+
+
+nav a:hover {
+    background-color: #fdfcdc;
+    border-radius: 30px;
+
+}
+
+
+
+
+@keyframes paragraph {
+    from {
+        background-color: #091136;
+    }
+
+       to  {
+        border-radius: 100px;
+    }
+       
+}
+
+.g{
+    border-radius: 20%;
+}
+
+
+
+.at{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    
+}
+
+.card_container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    border:solid;
+    border-radius: 30px;
+    border-top:60px;
+}
+
+
+
+
+
+
+
+.spin {
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    from {
+        transform: right(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    
+
+}
+
+header>h1,
+header>h2 {
+    color: var(--headline-color-on-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+}
+
+.rite {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+Z.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.head {
+    font-variant-east-asian: ruby;
+}
+
+.navig {
+    border-radius: 10px;
+}
+
+nav {
+
+    justify-content: center;
+    display: flexgrid;
+    flex-wrap: wrap;
+    image-resolution: 2ddpi;
+
+}
+
+nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    
+
+}
+
+.fr {
+    padding: 1%;
+}
+.h1{
+    color: #fdfcdc;
+
+    
+}
+.d{
+    color: #000;
+}
+.hed
+{
+  
+  color: #858111;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  border-radius: 3rex;
+  border-color: #858111;
+  border-style: solid;
+  box-shadow:10px 5px 3px 3px;
+  display:grid;
+
+  
+
+  
+  
+
+
+}
+
+.pics
+{
+    border-radius: 20px;
+    padding:1px;
+    color: #091136;
+    border: 1px 1px 1px;
+    box-shadow:  #fb0f07 #858111;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em ;
+    margin-bottom: 50px;
+    
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+footer {
+    display:grid;
+    grid-area: 2/3;
+
+    color: #fb0f07;
+    
+}
+
+.dropdown {
+  position: relative;
+  display: grid;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.hedy{
+    color:#858111;
+    display: flex;
+    flex: 1/3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: lighter;
+}
